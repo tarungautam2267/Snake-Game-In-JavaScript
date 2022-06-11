@@ -1,0 +1,77 @@
+html body{
+    margin: 0;
+    padding-left: 30px;
+    background-color: rgb(187, 113, 255);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 212, 249);
+}
+
+.square{
+    width: 60px;
+    height: 60px;
+
+}
+.snake{
+    background-color: rgb(157, 233, 42);
+    border-radius: 20px;
+}
+
+.apple{
+    background-color: crimson;
+    border-radius: 30px;
+}
+
+.columns{
+    display: flex;
+}
+.col2{
+    margin: 0;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.btnup,.btndown,.btnleft,.btnright{
+    height: min-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0.5px solid;
+    box-shadow: 0px 6px 2px black;
+    background-color: rgb(255, 187, 190);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding: 12px 24px;
+}
+button:hover{
+    cursor: pointer;
+}
+.btnup:hover,.btndown:hover,.btnleft:hover,.btnright:hover{
+    background-color: rgb(255, 0, 106);
+}
+#start{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 5px 2px black;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+#start:hover{
+    background-color: rgb(255, 197, 126);
+}
